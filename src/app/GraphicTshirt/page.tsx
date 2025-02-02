@@ -35,7 +35,7 @@ export default function GraphicTshirt() {
       </div>
 
       {/*  image section */}
-      <div className="md:col-start-2 md:col-span-2">
+      <div className=" ">
         <Image
           src={"/fonts/images/t-shirt.png"}
           alt="t-shirt image"
@@ -68,6 +68,11 @@ export default function GraphicTshirt() {
           />
         </div>
       </div>
+
+
+
+
+      
 
       {/* information section  */}
       <div className="ml-[16px] mt-2 font-integral flex flex-col items-start justify-between gap-3">
@@ -194,7 +199,7 @@ export default function GraphicTshirt() {
 
              <Card
                 imageUrl="/fonts/images/polo-shirt.png"
-                h1="SLEEVE STRIPED T-SHIRT"
+                title="SLEEVE STRIPED T-SHIRT"
                 stars="/s4.png"
                 ranking="4.5/5"
                 price={212}
@@ -203,7 +208,7 @@ export default function GraphicTshirt() {
 
                         <Card
                       imageUrl="/p1.png"
-                      h1="T-SHIRT WITH TAPE DETAILS"
+                      title="T-SHIRT WITH TAPE DETAILS"
                       stars="/s1.png"
                       ranking="4.5/5"
                       price={120}

@@ -148,7 +148,7 @@ export default function Casual() {
           <div className="grid place-items-center grid-cols-1 md:grid-cols-3 gap-6 mt-4 p-3">
             <Card
               imageUrl="/fonts/images/casual-1.png"
-              h1="Gradient Graphic T-shirt"
+              title="Gradient Graphic T-shirt"
               stars="/s4.png"
               ranking="4.5/5"
               price={145}
@@ -157,7 +157,7 @@ export default function Casual() {
               />
             <Card
               imageUrl="/fonts/images/casual-2.png"
-              h1="Polo with Tipping Details"
+              title="Polo with Tipping Details"
               stars="/s4.png"
               ranking= "4.5/5"
               price={180}
@@ -166,7 +166,7 @@ export default function Casual() {
             />
             <Card
               imageUrl="/fonts/images/casual-3.png"
-              h1="SLEEVE STRIPED T-SHIRT"
+              title="SLEEVE STRIPED T-SHIRT"
               stars="/s4.png"
               ranking="4.5/5"
               price={130}
@@ -175,7 +175,7 @@ export default function Casual() {
             />
            <Card
               imageUrl="/fonts/images/casual-4.png"
-              h1="SKINNY FIT JEANS"
+              title="SKINNY FIT JEANS"
               stars="/s4.png"
               ranking="3.5/5"
               price={240}
@@ -183,7 +183,7 @@ export default function Casual() {
 
             /><Card
             imageUrl="/fonts/images/casual-5.png"
-            h1="CHECKERED SHIRT"
+            title="CHECKERED SHIRT"
             stars="/s4.png"
             ranking="4.5/5"
             price={180}
@@ -191,7 +191,7 @@ export default function Casual() {
 
           /><Card
           imageUrl="/fonts/images/casual-6.png"
-          h1="SLEEVE STRIPED T-SHIRT"
+          title="SLEEVE STRIPED T-SHIRT"
           stars="/s4.png"
           ranking="4.5/5"
           price={130}
@@ -199,7 +199,7 @@ export default function Casual() {
 
         /><Card
         imageUrl="/fonts/images/casual-7.png"
-        h1="VERTICAL STRIPED SHIRT"
+        title="VERTICAL STRIPED SHIRT"
         stars="/s4.png"
         ranking="5/5"
         price={212}
@@ -207,7 +207,7 @@ export default function Casual() {
 
       /><Card
       imageUrl="/fonts/images/casual-8.png"
-      h1="COURAGE GRAPHIC T-SHIRT"
+      title="COURAGE GRAPHIC T-SHIRT"
       stars="/s4.png"
       ranking="4/5"
       price={145}
@@ -215,7 +215,7 @@ export default function Casual() {
 
     /><Card
     imageUrl="/fonts/images/casual-9.png"
-    h1="LOOSE FIT BERMUDA SHORTS"
+    title="LOOSE FIT BERMUDA SHORTS"
     stars="/s4.png"
     ranking="3/5"
     price={80}
