@@ -9,10 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^15.0.3",
+    "@clerk/nextjs": "^6.10.4",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.70.0",
+    "@stripe/stripe-js": "github:stripe/stripe-js",
+    "next": "^15.1.6",
+    "next-sanity": "^9.8.38",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.4.0"
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0",
+    "sanity": "^3.70.0",
+    "stripe": "^17.6.0",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@types/node": "^20",
