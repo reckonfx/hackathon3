@@ -6,7 +6,7 @@ export default function Hero() {
         <section className="w-full h-auto bg-[#F2F0F1] flex flex-col md:flex-row justify-between font-sans">
             {/* Left Content */}
             <div className="flex-1 flex flex-col justify-center items-start gap-6 p-8 md:ml-[100px]">
-                <h1 className="w-[315px] h-[93px] md:w-[577px] md:h-[173px] text-[36px] leading-8 ml-4 md:text-[64px] font-extrabold  md:leading-[64px] md:mb-5 font-integral">
+                <h1 className="w-[315px] h-[93px] md:w-[577px] md:h-[173px] text-[32px] leading-8 ml-4 md:text-[64px] font-extrabold  md:leading-[64px] md:mb-5 font-integral">
                     FIND CLOTHES THAT MATCHES YOUR STYLE
                 </h1>
                 <p className="w-[358px] h-[50px] md:w-[545px] md:h-[33px] text-[16px] leading-[22px] text-[#00000099] ml-4 mb-5 font-satoshi">
@@ -39,7 +39,7 @@ export default function Hero() {
                     alt="hero image"
                     width={550}
                     height={600} // Ensures the image covers the parent div
-                    objectFit="cover" // Ensures the image scales properly within the div
+                    style={{ objectFit: 'cover' }}
                     className="absolute top-0 left-0"
                 />
                 <Image
